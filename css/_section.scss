@@ -1,4 +1,4 @@
-section {
+.section {
     padding: 56px 0;
 }
 
@@ -10,12 +10,14 @@ section {
     row-gap: 4%;
     width: 100%;
 
-    .product-item img {
-        width: 100%;
-        border-radius: 16px;
+    &__item {
+        img {
+            width: 100%;
+            border-radius: 16px;
+        }
     }
 
-    .product-button {
+    &__button {
         display: block;
         background-color: $color4;
         color: #fff;
@@ -46,7 +48,7 @@ section {
     .products {
         display: block;
 
-        .product-item  {
+        &__item {
             margin-bottom: 32px;
         }
     }

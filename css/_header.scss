@@ -1,27 +1,28 @@
-header {
+.header {
     background-color: $color2;
     position: sticky;
     top: 0;
     left: 0;
 
-    .container {
+    &__container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 16px 0;
     }
 
-    .menu {
+    &__menu {
         display: flex;
 
-        li {
+        &-item {
             font-weight: bold;
             margin-left: 24px;
 
-            a {
+            &-link {
                 color: $color3;
                 text-decoration: none;
             }
         }
     }
 }
+
